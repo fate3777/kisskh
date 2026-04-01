@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Google+Sans:regular,500,600,700,italic,500italic,600italic,700italic);
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #303030;
+    font-family: "Google Sans";
+    font-weight: 500;
+    color: white;
+}
+.header{
+    background-color: #212121;
+    display: flex;
+    justify-content:  space-between;
+}
+.header2{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+.logo{
+    width: 70px;
+    margin-left: 40px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a.signin{
+    margin: 2px;
+    padding: 7px;
+    border: 1px solid #919191;
+    border-radius: 5px;
+}
+.big1{
+    width: 100%;
+}
+.text{
+    padding: 12px 50px;
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+}
+.history{
+    padding: 30px;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+}
+span.a{
+    padding-left: 12px;
+}
+.luu{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.lu{
+    display: flex;
+    align-items: center;
+    
+    width: 1650px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+.lu::-webkit-scrollbar{
+    width: 0;
+}
+img.r{
+    width: 25px;
+    height: 25px;
+}
+img.l{
+    width: 25px;
+    height: 25px;
+
+}
+.movie{
+    background-color: #424242;
+    height: 190px;
+    margin: 10px;
+    padding-bottom: 20px;
+    border-radius: 7px;
+}
+.m2{
+    font-size: 14px;
+    padding: 3px 10px;
+}
+p.lol{
+    padding: 0 50px;
+    font-size: 22px;
+}
+.home,.faq,.request,.theme,.explore,.search,.signin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+img.lmao{
+    width: 18px;
+    height: 16px;
+}
